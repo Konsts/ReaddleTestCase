@@ -26,7 +26,6 @@ func main() {
 		case userInput = <-input:
 			if fibonachi(fibNum) == userInput {
 				correctAnswer++
-				errorAnswer = 0
 				fibNum++
 				fmt.Println("Right!")
 			} else {
